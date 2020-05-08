@@ -659,6 +659,7 @@ a {
 }
 
 .hero-bloc-text {
+    text-align: center;
     font-size: 38px;
 }
 
@@ -677,12 +678,13 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 .h1 {
@@ -775,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
