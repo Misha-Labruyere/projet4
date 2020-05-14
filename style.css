@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -101,6 +100,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    text-align: center;
 }
 
 .d-bloc button:hover {
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    font-size: 20px;
 }
 
 .d-bloc .panel button:hover,
@@ -704,6 +704,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -743,6 +745,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
@@ -824,7 +828,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -838,6 +842,10 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .social {
+        letter-spacing: 10px;
     }
 }
 
