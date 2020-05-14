@@ -89,9 +89,16 @@ a:hover {
     right: 0;
 }
 
+#bloc-7 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: 0.5;
 }
 
 .b-parallax {
@@ -654,9 +661,6 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     text-align: center;
@@ -728,6 +732,7 @@ h3 {
 
 h1 {
     color: #333333!important;
+    font-size: 25px;
 }
 
 h4 {
