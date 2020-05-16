@@ -96,8 +96,8 @@ a:hover {
 }
 
 #bloc-7 .row {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .texture-paper::before {
@@ -847,6 +847,9 @@ label abbr {
   left: -1em;
   color: red;
 }
+.col-sm-6 {
+    width: 60%;
+  }
 
 @media (max-width: 1024px) {
   .bloc {
@@ -864,6 +867,14 @@ label abbr {
   .social {
     letter-spacing: 10px;
   }
+  label abbr {
+    color: red;
+    position: relative;
+    left: 1em;
+  }
+  .col-sm-6 {
+    width: 80%;
+  }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -873,17 +884,26 @@ label abbr {
   .nav-center.navbar .nav {
     max-width: 100%;
   }
+  .col-sm-6 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
+  .col-sm-6 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
+  }
+  .col-sm-6 {
+    width: 100%;
   }
 }
 
@@ -913,6 +933,9 @@ label abbr {
     padding: 0 20px;
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
+  }
+  .col-sm-6 {
+    width: 100%;
   }
 }
 
